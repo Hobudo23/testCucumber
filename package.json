@@ -1,0 +1,20 @@
+{
+  "name": "testcucumber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run wdio.conf.js",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@wdio/cucumber-framework": "^9.7.3",
+    "@wdio/local-runner": "^9.8.0",
+    "@wdio/spec-reporter": "^9.8.0",
+    "@wdio/visual-service": "^6.3.1",
+    "webdriverio": "^9.8.0"
+  }
+}
